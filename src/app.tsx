@@ -33,7 +33,7 @@ function App() {
         <DotPattern className={cn('mask-[linear-gradient(to_bottom,white,transparent,transparent)] opacity-75')} />
       </motion.div>
       <main className="container mx-auto px-6">
-        <motion.section className="flex flex-col gap-6 pt-16" variants={containerVariants} initial="hidden" animate="show" viewport={{ once: true, amount: 0.2 }}>
+        <motion.section className="flex flex-col gap-6 pt-8 sm:pt-16" variants={containerVariants} initial="hidden" animate="show" viewport={{ once: true, amount: 0.2 }}>
           <motion.div className="flex gap-2 backdrop-blur-sm text-xs sm:text-sm items-center border bg-foreground/5 px-4 py-2 rounded-md w-fit" variants={itemVariants}>
             <BringToFront className="min-w-4 min-h-4 size-4" />
             O Linktree tava pago, então eu fiz um pra mim.
