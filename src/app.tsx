@@ -43,9 +43,6 @@ function App() {
             <br />
             Eu Sou o Thiago✌️
           </motion.h1>
-          <motion.h2 className="text-muted-foreground" variants={itemVariants}>
-            Analisando o <span className="font-semibold text-green-400">commit</span>, o <span className="font-semibold text-blue-400">pré-chorus</span>, o ângulo da <span className="font-semibold text-yellow-400">raquete</span>, e quantas jogadas<br /> faltam pro <span className="font-semibold text-red-400">mate</span>.
-          </motion.h2>
           <motion.div className="flex flex-wrap gap-4" variants={itemVariants}>
             <motion.a href="https://www.google.com/maps/place/Macei%C3%B3,+AL/@-9.6463448,-35.7268511,12z/data=!3m1!4b1!4m6!3m5!1s0x70145b130808773:0x2687c8550754e77a!8m2!3d-9.650127!4d-35.7129321!16s%2Fg%2F11c4022wg7" target="_blank" rel="noopener noreferrer" whileHover={{ y: -2, scale: 1.02 }} transition={{ type: 'spring', stiffness: 300, damping: 20 }}>
               <TransparentBadge>
